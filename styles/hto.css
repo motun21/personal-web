@@ -1,0 +1,54 @@
+/* basic styling */
+h1 {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+}
+
+img {
+  width: 300px;
+}
+
+/* loading page */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.fade-image {
+  width: 300px;
+  opacity: 0;
+  animation: fadeIn 2.5s ease-in forwards;
+}
+
+/* detects the hover over the pancake image*/
+.fade-image:hover {
+  animation: fadeIn 2.5s ease-in forwards, bounce 0.8s ease-in-out infinite;
+}
+
+/* fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* bounce animation for the pancake */
+@keyframes bounce { 
+  0% { transform: translateY(0); } 
+  50% { transform: translateY(-12px); } 
+  100% { transform: translateY(0); } }

@@ -1,0 +1,19 @@
+body{
+    background: rgb(42, 44, 77);
+}
+
+.iframe-container {
+  position: relative;
+  width: 60%;
+  height: 80vh;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.google_doc {
+  width: 133.33%;
+  height: 133.33%;
+  border: none;
+  transform: scale(0.75); 
+  transform-origin: top left;
+}

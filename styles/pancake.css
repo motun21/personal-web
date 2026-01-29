@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #776c55;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4c26b;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #5a3e1b;
+}
+
+.intro, .facts, .image-section {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.facts ul {
+    padding-left: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #7a5a2e;
+}

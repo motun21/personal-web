@@ -1,0 +1,15 @@
+body{
+    background: rgb(45, 60, 72);
+}
+
+
+.mybox {
+  width: 35vmin;
+  height: 15vmin;
+  padding: 15px;
+  background: #f0f0f0;
+  color: #000;
+  overflow-y: scroll; 
+  border-radius: 15px;
+  margin: 0 auto;
+}
